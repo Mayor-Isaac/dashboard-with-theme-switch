@@ -37,11 +37,11 @@ const changeMode =  function(){
         border.style.borderColor = 'hsl(230, 17%, 14%)'
     }
     toggle.addEventListener('click', function(){
-        document.querySelector('.mode p').style.color = 'hsl(228, 12%, 44%)'
-        document.querySelector('.mode p').textContent = 'Dark Mode'
+    document.querySelector('.mode p').style.color = 'hsl(228, 12%, 44%)'
+    document.querySelector('.mode p').textContent = 'Dark Mode'
     toggle.classList.remove('toggle-dark-bg')
     dashBoard.style.color = ' initial'
-    overView.style.color = ' hsl(0, 0%, 100%)'
+    overView.style.color = ' hsl(230, 17%, 14%)'
     dot.style.marginLeft = 'auto'
     body.style.backgroundColor = 'initial'
     mode.style.borderTopColor = 'initial'
